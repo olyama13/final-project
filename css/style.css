@@ -1,0 +1,158 @@
+.main_menu{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: URW Chancery L, cursive;
+}
+.menu_block{
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+
+}
+.logo{
+    align-items: center;
+    text-align: center;
+}
+.img_logo{
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+.footer_menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 101%;
+    background-color: PaleGreen;
+}
+.footer_left{
+    text-align: right;
+}
+.img_extra{
+    width: 50px;
+    height: 50px;
+}
+.about{
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.about h1{
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about_img{
+    height: auto;
+    width: 100%;
+    max-width: 630px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+@media (max-width: 992px) {
+    .about_img {
+        border-radius: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about_img {
+        border-radius: 30px;
+    }
+    
+    .about h1 {
+        font-size: 50px;
+    }
+}
+.menu{
+    font-family: URW Chancery L, cursive;
+    width: 100%;
+    background-color: PaleGreen;
+}
+.menu_new{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.menu1{
+    text-align: center;
+    align-items: center;
+}
+.menu1 p{
+    text-align: left;
+}
+.menu2{
+    text-align: center;
+    align-items: center;
+}
+.menu2 p{
+    text-align: left;
+}
+.menu3{
+    text-align: center;
+    align-items: center;
+}
+.menu3 p {
+    text-align: left;
+}
+#form1{
+    background-color: PaleGreen;
+    border-radius: 100px;
+    text-align: center;
+    align-items: center;
+}
+.form_order{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.order{
+    padding-top: 100px;
+}
+#form2{
+    background-color: PaleGreen;
+    text-align: center;
+    align-items: center;
+}
+.restaurant{
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#restaurant2 .carousel {
+    max-width: 800px;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+#restaurant2 .carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-indicators button {
+    border-color: #000;
+}
+.carousel-indicators .active {
+    background-color: #000;
+}
+.review{
+    font-family: URW Chancery L, cursive;
+    width: 100%;
+}
+.review_new{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
